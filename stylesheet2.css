@@ -1,0 +1,106 @@
+body
+{
+	background-image: url('http://www.pulsarmedia.eu/data/media/10/3I_Qubu_By_Wrecks_1920X1200_2.jpg');
+
+	font-family:"Helvetica,"Arial;
+}
+#contenido
+{
+	width:960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+	color: #FFFFFF;
+	font-family: 'Russo One', sans-serif;
+}
+header hgroup h1
+{
+	border-bottom: solid;
+	padding-bottom: 10px;
+	border-width: 1px;
+	border-color:#1d1d1d;
+	text-shadow:0px 0px 30px rgba(0,0,0,0.5);
+}
+nav ul li
+{
+	display:inline-block;
+	margin-right:50px;
+	color:#1d1d1d;
+	cursor: pointer;
+	padding:5px;
+
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+nav ul li:hover
+{
+	background-color: #7BC8A4;
+	color:#FFF;
+	border-radius: 5px;
+}
+nav ul li a
+{
+	text-decoration: none;
+}
+#textoPr
+{
+	width: 600px;
+	height: 300px;
+	background-color: #1d1d1d;
+	color: #FFC65D;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,50);
+	background-image: url('http://www.pulsarmedia.eu/data/media/10/Cube%20Room%201600.jpg');
+}
+#miCanvas
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+}
+meter
+{
+	padding: 2px;
+	color: #7BC8A4;
+	margin-left: 20px;
+	width: 200px;
+}
+label
+{
+	display: block;
+}
+#btnSubmit
+{
+	border:none;
+	background-color: #FFF;
+	color: #e44e2d;
+	padding:4px;
+	margin: 20px;
+	cursor: pointer;
+	font-family: 'Russo One', sans-serif;
+}
+#calificacion
+{
+	width: 150px;
+	-webkit-appearance:none;
+	background-color: #FFF;
+	height: 20px;
+	border-radius:5px;
+	cursor: pointer;
+}
+#calificacion::-webkit-slider-thumb
+{
+	-webkit-appearance:none;
+	background-color: #7BC8A4;
+	border-radius:10px;
+	height: 15px;
+	width: 10px;
+}
